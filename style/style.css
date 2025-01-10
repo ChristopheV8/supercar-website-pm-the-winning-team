@@ -969,6 +969,26 @@ a[href*="product"], a[href*="headwear"] {
     color: var(--orange);
 }
 
+.ausummary {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.ausummary > p {
+    color: var(--orange);
+    font-size: 32px;
+    width: 80%;
+    display: flex;
+}
+
+#aboutusbody {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+
 @media only screen and (max-width: 768px) {
     :root {
         --h2: 48px;
